@@ -2,10 +2,10 @@
 This is an example on how to use the 1.8" TFT 128x160 SPI ST7735 display using the Adafruit library.
 
 ST7735 TFT SPI display pins for Arduino Uno/Nano:
- * LED =   3.3V
+ * LED/BLK =   3.3V
  * SCK =   13
  * SDA =   11
- * A0 =    8
+ * A0/DC =    8
  * RESET = 9
  * CS =    10
  * GND =   GND
@@ -26,9 +26,9 @@ the display and arduino, and a 3.3k resistor to ground to create a simple voltag
 
 Hardware SPI Pins:
  * Arduino Uno   SCK=13, SDA=11
- * Arduino Nano  SCK=13, SDA=11
- * Arduino Due   SCK=76, SDA=75
- * Arduino Mega  SCK=52, SDA=51
+ ** Arduino Nano  SCK=13, SDA=11
+ ** Arduino Due   SCK=76, SDA=75
+ ** Arduino Mega  SCK=52, SDA=51
 
 SPI pin names can be confusing. These are the alternative names for the SPI pins:
 MOSI = DIN = R/W = SDO = DI = SI = MTSR = SDA = D1 = SDI
