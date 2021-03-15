@@ -1,0 +1,8 @@
+BLK -- 3.3V
+CS -- 10
+RST -- 9
+Dc -- 8
+SDA -- 11
+SCL -- 13
+VDD --5V
+GND
