@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "adafruit_st77xx.h": "c"
+    }
+}
